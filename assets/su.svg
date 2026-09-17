@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200">
+<defs><pattern id="dots" width="7" height="7" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#111" opacity=".3"/></pattern></defs>
+<rect width="900" height="1200" fill="#111"/><rect x="18" y="18" width="864" height="1164" rx="28" fill="#f2eee5"/>
+<circle cx="745" cy="140" r="92" fill="none" stroke="#111" stroke-width="8"/><text x="745" y="174" text-anchor="middle" font-size="120" font-family="serif" font-weight="900">す</text>
+<g font-family="serif" font-weight="900" font-size="68"><text x="580" y="145" style="writing-mode:vertical-rl">睡眠を</text><text x="460" y="145" style="writing-mode:vertical-rl">削って進む</text><text x="340" y="145" style="writing-mode:vertical-rl">沼の底</text></g>
+<rect x="60" y="690" width="780" height="410" rx="50" fill="url(#dots)"/><path d="M80 1050Q260 740 520 850T820 1050" fill="#d7d3cb" stroke="#111" stroke-width="8"/>
+<circle cx="400" cy="830" r="95" fill="#fff" stroke="#111" stroke-width="8"/><path d="M310 785q90-80 180 0" fill="#111"/><path d="M355 845q45 20 90 0" fill="none" stroke="#111" stroke-width="7"/>
+<rect x="425" y="900" width="110" height="180" rx="20" fill="#222"/><circle cx="480" cy="940" r="9" fill="#d93428"/>
+<rect x="610" y="930" width="160" height="80" rx="12" fill="#111"/><text x="690" y="985" text-anchor="middle" fill="#d93428" font-size="44" font-family="monospace">3:07</text>
+<ellipse cx="220" cy="900" rx="115" ry="62" fill="#fff" stroke="#111" stroke-width="6"/><text x="220" y="910" text-anchor="middle" font-size="34" font-family="sans-serif" font-weight="800">あと5分…</text>
+</svg>
