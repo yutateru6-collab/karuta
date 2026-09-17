@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0a0a0a">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>限界カルタ</title>
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<div class="app">
+  <header class="topbar">
+    <div class="brand">限界<b>カルタ</b></div>
+    <div class="counter" id="counter"></div>
+  </header>
+
+  <main id="viewerView" class="view active">
+    <section class="viewer" id="viewer">
+      <button class="navArrow prev" aria-label="前の札">‹</button>
+      <div class="card-stage" id="cardStage"><div class="card3d" id="card3d"></div></div>
+      <button class="navArrow next" aria-label="次の札">›</button>
+      <div class="hint" id="hint">タップで裏返す ・ 左右にスワイプ</div>
+    </section>
+  </main>
+
+  <main id="todayView" class="view">
+    <div class="scroll-view">
+      <section id="todayPick">
+        <h1 class="section-title">今日のお前はどれ？</h1>
+        <p class="section-sub">今の自分に近い札を1〜3枚。選んでも、別に解決はしません。</p>
+        <div id="todayGrid" class="today-grid"></div>
+        <button id="makeResult" class="today-action" disabled>この札で本日の限界届を出す</button>
+      </section>
+      <section id="todayResult" class="result">
+        <h1 class="section-title">本日の限界届</h1>
+        <p class="section-sub">本日もなんとか終了しました。</p>
+        <div id="resultCards" class="result-cards"></div>
+        <div class="result-actions">
+          <button class="secondary" id="redo">選び直す</button>
+          <button class="secondary" id="saveImage">画像にする</button>
+        </div>
+        <img id="sharePreview" class="share-preview" alt="本日の限界届">
+      </section>
+    </div>
+  </main>
+
+  <main id="listView" class="view">
+    <div class="scroll-view">
+      <h1 class="section-title">全札</h1>
+      <p class="section-sub">気になる札を押すと、その札から「めくる」を始めます。</p>
+      <div class="chips" id="chips"></div>
+      <div class="list-grid" id="listGrid"></div>
+    </div>
+  </main>
+
+  <nav class="bottomnav">
+    <button class="navbtn on" data-view="viewerView"><span class="ico">◫</span><span>めくる</span></button>
+    <button class="navbtn" data-view="todayView"><span class="ico">●</span><span>今日の限界</span></button>
+    <button class="navbtn" data-view="listView"><span class="ico">▦</span><span>一覧</span></button>
+  </nav>
+</div>
+<div class="toast" id="toast"></div>
+<script src="./cards.js"></script>
+<script src="./app.js"></script>
+</body>
+</html>
