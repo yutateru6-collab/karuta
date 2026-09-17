@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200">
+<defs><pattern id="dots" width="8" height="8" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#111" opacity=".25"/></pattern></defs>
+<rect width="900" height="1200" fill="#111"/><rect x="18" y="18" width="864" height="1164" rx="28" fill="#f2eee5"/>
+<path d="M18 380L220 180M18 430L250 190M882 600L650 830M882 650L670 850" stroke="#111" stroke-width="9"/>
+<circle cx="745" cy="140" r="92" fill="none" stroke="#111" stroke-width="8"/><text x="745" y="174" text-anchor="middle" font-size="120" font-family="serif" font-weight="900">あ</text>
+<g font-family="serif" font-weight="900" font-size="70"><text x="595" y="170" style="writing-mode:vertical-rl">明日から</text><text x="475" y="170" style="writing-mode:vertical-rl">本気出すよと</text><text x="355" y="170" style="writing-mode:vertical-rl">決めて寝る</text></g>
+<rect x="60" y="700" width="780" height="400" rx="70" fill="url(#dots)"/><path d="M100 980Q240 720 470 820T800 990" fill="#d8d4cc" stroke="#111" stroke-width="8"/>
+<circle cx="430" cy="840" r="95" fill="#fff" stroke="#111" stroke-width="8"/><path d="M360 820q70-60 140 0M390 850q40 28 80 0" fill="none" stroke="#111" stroke-width="8"/>
+<path d="M320 760q80-100 210 10" fill="none" stroke="#111" stroke-width="22"/>
+<rect x="610" y="900" width="150" height="75" rx="12" fill="#111"/><text x="685" y="950" text-anchor="middle" fill="#d93428" font-size="40" font-family="monospace">2:38</text>
+<ellipse cx="220" cy="860" rx="120" ry="68" fill="#fff" stroke="#111" stroke-width="6"/><text x="220" y="870" text-anchor="middle" font-size="34" font-family="sans-serif" font-weight="800">明日こそ…</text>
+</svg>
