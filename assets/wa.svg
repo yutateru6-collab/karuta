@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200">
+<rect width="900" height="1200" fill="#111"/><rect x="18" y="18" width="864" height="1164" rx="28" fill="#f2eee5"/>
+<circle cx="745" cy="140" r="92" fill="none" stroke="#111" stroke-width="8"/><text x="745" y="174" text-anchor="middle" font-size="120" font-family="serif" font-weight="900">わ</text>
+<g font-family="serif" font-weight="900" font-size="68"><text x="580" y="150" style="writing-mode:vertical-rl">忘れてた</text><text x="460" y="150" style="writing-mode:vertical-rl">サブスク代で</text><text x="340" y="150" style="writing-mode:vertical-rl">飯食える</text></g>
+<path d="M30 620L250 470M30 690L285 490M870 630L650 470M870 700L620 500" stroke="#111" stroke-width="8"/>
+<circle cx="280" cy="820" r="125" fill="#fff" stroke="#111" stroke-width="8"/><path d="M180 760q110-130 215 0" fill="#111"/><rect x="200" y="780" width="60" height="44" rx="10" fill="none" stroke="#111" stroke-width="8"/><rect x="300" y="780" width="60" height="44" rx="10" fill="none" stroke="#111" stroke-width="8"/><path d="M260 802h40" stroke="#111" stroke-width="7"/><circle cx="230" cy="802" r="8"/><circle cx="330" cy="802" r="8"/><path d="M215 900q65-100 130 0" fill="none" stroke="#111" stroke-width="9"/>
+<rect x="470" y="585" width="320" height="530" rx="36" fill="#171717"/><rect x="495" y="640" width="270" height="390" rx="14" fill="#fff"/>
+<g font-family="sans-serif" font-size="28" fill="#111"><text x="520" y="700">動画配信　¥980</text><text x="520" y="745">音楽　　　¥980</text><text x="520" y="790">マンガ　　¥720</text><text x="520" y="835">ゲーム　 ¥1,100</text><text x="520" y="880">クラウド ¥1,320</text><text x="520" y="925">英会話　 ¥1,980</text></g>
+<line x1="515" y1="955" x2="745" y2="955" stroke="#111" stroke-width="4"/><text x="630" y="1005" text-anchor="middle" fill="#d93428" font-size="54" font-family="sans-serif" font-weight="900">¥11,410</text>
+<ellipse cx="220" cy="1030" rx="125" ry="68" fill="#fff" stroke="#111" stroke-width="6"/><text x="220" y="1040" text-anchor="middle" font-size="34" font-family="sans-serif" font-weight="900">こんなに!?</text>
+</svg>
