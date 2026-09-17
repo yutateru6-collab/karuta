@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200">
+<defs><pattern id="h" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M0 10L10 0" stroke="#111" stroke-width="1" opacity=".25"/></pattern></defs>
+<rect width="900" height="1200" fill="#111"/><rect x="18" y="18" width="864" height="1164" rx="28" fill="#f2eee5"/>
+<circle cx="745" cy="140" r="92" fill="none" stroke="#111" stroke-width="8"/><text x="745" y="174" text-anchor="middle" font-size="120" font-family="serif" font-weight="900">き</text>
+<g font-family="serif" font-weight="900" font-size="66"><text x="580" y="150" style="writing-mode:vertical-rl">気まずさは</text><text x="460" y="150" style="writing-mode:vertical-rl">スマホいじって</text><text x="340" y="150" style="writing-mode:vertical-rl">消し去るよ</text></g>
+<rect x="55" y="650" width="790" height="470" fill="url(#h)"/><path d="M80 1080V690H820V1080" fill="none" stroke="#111" stroke-width="8"/>
+<circle cx="450" cy="790" r="105" fill="#fff" stroke="#111" stroke-width="8"/><path d="M355 770q95-95 190 0" fill="#111"/><path d="M392 812q58 18 116 0" fill="none" stroke="#111" stroke-width="7"/>
+<rect x="380" y="885" width="140" height="220" rx="22" fill="#222" stroke="#111" stroke-width="8"/><circle cx="450" cy="935" r="8" fill="#d93428"/>
+<g fill="#ddd" stroke="#111" stroke-width="5"><circle cx="150" cy="820" r="70"/><circle cx="750" cy="820" r="70"/></g>
+<ellipse cx="620" cy="750" rx="115" ry="65" fill="#fff" stroke="#111" stroke-width="6"/><text x="620" y="760" text-anchor="middle" font-size="34" font-family="sans-serif" font-weight="800">通知ゼロ…</text>
+</svg>
