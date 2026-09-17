@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200">
+<rect width="900" height="1200" fill="#111"/><rect x="18" y="18" width="864" height="1164" rx="28" fill="#f2eee5"/>
+<circle cx="745" cy="140" r="92" fill="none" stroke="#111" stroke-width="8"/><text x="745" y="174" text-anchor="middle" font-size="120" font-family="serif" font-weight="900">そ</text>
+<g font-family="serif" font-weight="900" font-size="70"><text x="580" y="150" style="writing-mode:vertical-rl">そっと閉じ</text><text x="460" y="150" style="writing-mode:vertical-rl">全然ないね</text><text x="340" y="150" style="writing-mode:vertical-rl">残高よ</text></g>
+<path d="M30 650L250 500M35 710L290 520M870 640L650 500M870 700L620 530" stroke="#111" stroke-width="8"/>
+<circle cx="320" cy="830" r="120" fill="#fff" stroke="#111" stroke-width="8"/><path d="M220 770q95-110 200 10" fill="#111"/><circle cx="280" cy="835" r="14"/><circle cx="360" cy="835" r="14"/><path d="M275 900q45-60 90 0" fill="none" stroke="#111" stroke-width="8"/>
+<rect x="470" y="650" width="300" height="470" rx="40" fill="#151515"/><rect x="495" y="705" width="250" height="340" rx="18" fill="#fff"/>
+<text x="620" y="785" text-anchor="middle" font-size="42" font-family="sans-serif" font-weight="800">普通預金残高</text><text x="620" y="900" text-anchor="middle" fill="#d93428" font-size="82" font-family="sans-serif" font-weight="900">¥327</text><rect x="535" y="950" width="170" height="65" rx="12" fill="#111"/><text x="620" y="995" text-anchor="middle" fill="#fff" font-size="30">閉じる</text>
+<ellipse cx="200" cy="1030" rx="130" ry="70" fill="#fff" stroke="#111" stroke-width="6"/><text x="200" y="1040" text-anchor="middle" font-size="30" font-family="sans-serif" font-weight="800">見なかったことに…</text>
+</svg>
