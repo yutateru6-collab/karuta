@@ -1,0 +1,45 @@
+name: validate
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: JavaScript syntax
+        run: |
+          node --check app.js
+          node --check cards.js
+          node --check sw.js
+      - name: Card data
+        run: |
+          node - <<'NODE'
+          global.window = {};
+          require('./cards.js');
+          if (!Array.isArray(window.CARDS)) throw new Error('CARDS is not an array');
+          if (window.CARDS.length !== 24) throw new Error('Expected 24 cards, got ' + window.CARDS.length);
+          const ids = window.CARDS.map(c => c.id);
+          if (new Set(ids).size !== ids.length) throw new Error('Duplicate card id');
+          for (const c of window.CARDS) {
+            if (!c.kana || !c.phrase || !c.explanation || !c.category) {
+              throw new Error('Missing required fields: ' + JSON.stringify(c));
+            }
+          }
+          console.log('Validated', window.CARDS.length, 'cards');
+          NODE
+      - name: Required files
+        run: |
+          test -f index.html
+          test -f styles.css
+          test -f manifest.webmanifest
+          test -f assets/a.svg
+          test -f assets/ki.svg
+          test -f assets/so.svg
+          test -f assets/su.svg
+          test -f assets/wa.svg
