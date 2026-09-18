@@ -3,31 +3,31 @@ window.CARDS = [
     "id":"a","kana":"あ","phrase":"明日から　本気出すよと　決めて寝る",
     "lines":["明日から","本気出すよと","決めて寝る"],"category":"生活・お金",
     "tags":["先延ばし","生活"],"explanation":"毎日更新される「明日からの自分」への無責任な期待。そして変わらぬ今日を繰り返す。",
-    "image":"./assets/a.webp","icon":"🛌","caption":"明日こそ…"
+    "image":"./assets/a.svg","icon":"🛌","caption":"明日こそ…"
   },
   {
     "id":"ki","kana":"き","phrase":"気まずさは　スマホいじって　消し去るよ",
     "lines":["気まずさは","スマホいじって","消し去るよ"],"category":"スマホ・SNS",
     "tags":["スマホ","気まずさ"],"explanation":"エレベーターや信号待ち。届いてもいない通知を確認するふりをして、一時の気まずさをやり過ごす。",
-    "image":"./assets/ki.webp","icon":"📱","caption":"通知ゼロ…"
+    "image":"./assets/ki.svg","icon":"📱","caption":"通知ゼロ…"
   },
   {
     "id":"so","kana":"そ","phrase":"そっと閉じ　全然ないね　残高よ",
     "lines":["そっと閉じ","全然ないね","残高よ"],"category":"生活・お金",
     "tags":["お金","残高"],"explanation":"銀行アプリを開き、予想を遥かに下回る数字を見て、何もなかったことにしてスマホを伏せる生存本能。",
-    "image":"./assets/so.webp","icon":"💸","caption":"見なかったことに…"
+    "image":"./assets/so.svg","icon":"💸","caption":"見なかったことに…"
   },
   {
     "id":"su","kana":"す","phrase":"睡眠を　削って進む　沼の底",
     "lines":["睡眠を","削って進む","沼の底"],"category":"スマホ・SNS",
     "tags":["夜更かし","スマホ"],"explanation":"明日も学校や仕事なのに、ショート動画のレコメンドから抜け出せず、午前3時の青白い光に照らされる。",
-    "image":"./assets/su.webp","icon":"🌙","caption":"あと5分…"
+    "image":"./assets/su.svg","icon":"🌙","caption":"あと5分…"
   },
   {
     "id":"wa","kana":"わ","phrase":"忘れてた　サブスク代で　飯食える",
     "lines":["忘れてた","サブスク代で","飯食える"],"category":"生活・お金",
     "tags":["サブスク","お金"],"explanation":"使っていないアプリ、解約し忘れた動画サービス。少額だと思って放置した結果、合計額が一食分を大きく超えていることに気づく。",
-    "image":"./assets/wa.webp","icon":"🧾","caption":"こんなに!?","accent":"¥11,410"
+    "image":"./assets/wa.svg","icon":"🧾","caption":"こんなに!?","accent":"¥11,410"
   },
   {
     "id":"ko","kana":"こ","phrase":"広告の　エロい漫画に　つい課金",
